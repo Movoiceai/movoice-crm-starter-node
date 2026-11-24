@@ -2,7 +2,7 @@
 
 A tiny CRM that calls your leads with a [Movoice AI](https://movoice.ai) voice agent and writes
 the result back on the lead. Next.js (App Router) + TypeScript + the
-[`movoice`](https://www.npmjs.com/package/movoice) npm package. About 300 lines you can read in
+[`movoice`](https://www.npmjs.com/package/movoice) npm package. About 450 lines, comments included, that you can read in
 one sitting, then copy into your own app.
 
 ```
