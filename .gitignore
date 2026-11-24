@@ -1,0 +1,20 @@
+# secrets
+.env
+.env.*
+!.env.example
+
+# your lead data (data/leads.sample.json stays in git)
+data/leads.json
+data/deliveries.json
+data/*.tmp
+
+# dependencies and build output
+node_modules/
+.next/
+out/
+next-env.d.ts
+*.tsbuildinfo
+
+# misc
+.DS_Store
+npm-debug.log*

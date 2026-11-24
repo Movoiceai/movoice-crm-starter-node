@@ -1,0 +1,32 @@
+{
+  "name": "movoice-crm-starter-node",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A tiny CRM that calls your leads with a Movoice AI voice agent and writes the result back. Next.js + the movoice npm package.",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=22.12"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "vitest run",
+    "simulate-webhook": "node scripts/simulate-webhook.mjs",
+    "reset-leads": "node scripts/reset-leads.mjs"
+  },
+  "dependencies": {
+    "movoice": "^0.1.0",
+    "next": "^16.4.6",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.5",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "typescript": "^5.9.3",
+    "vitest": "^5.1.1"
+  }
+}
